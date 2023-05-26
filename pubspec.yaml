@@ -15,6 +15,7 @@ dependencies:
   cloud_firestore: ^4.7.1
   google_sign_in: ^6.1.2
   intl: ^0.18.1
+  jitsi_meet_wrapper: ^0.0.6
 
 dev_dependencies:
   flutter_test:

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../resources/auth_methods.dart';
 import '../utils/colors.dart';
 import '../widgets/custom_button.dart';
+import 'history_meetings_screen.dart';
+import 'meeting_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -21,9 +23,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   final List<Widget> _pages = [
-    const Text('Meet & Char'),
-    const Text('Meeting'),
-    const Text('Contacts'),
+    const MeetingScreen(),
+    const HistoryMeetingsScreen(),
+    const Center(child: Text('Contacts')),
     CustomButton(text: 'Log Out', onPressed: () => AuthMethods().signOut()),
   ];
 
@@ -49,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: Icon(
               Icons.comment_bank,
             ),
-            label: 'Meet & Char',
+            label: 'Meet & Chat',
           ),
           BottomNavigationBarItem(
             icon: Icon(

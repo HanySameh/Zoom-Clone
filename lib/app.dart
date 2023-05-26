@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'resources/auth_methods.dart';
 import 'screens/home_screen.dart';
 import 'screens/login_screen.dart';
+import 'screens/video_call_screen.dart';
 import 'utils/colors.dart';
 
 class MyApp extends StatelessWidget {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/login': (context) => const LoginScreen(),
         '/home': (context) => const HomeScreen(),
+        '/video-call': (context) => const VideoCallScreen(),
       },
       home: StreamBuilder<User?>(
         stream: AuthMethods().authChanges,
