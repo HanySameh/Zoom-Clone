@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:omni_jitsi_meet/jitsi_meet.dart';
 
 import '../resources/auth_methods.dart';
 import '../resources/jitsi_meet_methods.dart';
@@ -34,7 +35,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
     super.dispose();
     meetingIdController.dispose();
     nameController.dispose();
-    // JitsiMeetWrapper.removeAllListeners();
+    JitsiMeet.closeMeeting();
   }
 
   _joinMeeting() {

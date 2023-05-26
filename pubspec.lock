@@ -232,22 +232,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.18.1"
-  jitsi_meet_wrapper:
-    dependency: "direct main"
-    description:
-      name: jitsi_meet_wrapper
-      sha256: "7459a792215042e05b4e2380fb1f5467df8bccc82a254c674cd325812fbe219f"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.6"
-  jitsi_meet_wrapper_platform_interface:
-    dependency: transitive
-    description:
-      name: jitsi_meet_wrapper_platform_interface
-      sha256: "3ad496e47b6f4de81bf52847b965fe967ca94a5a08cb68c3498dfb1e6beb0d86"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.4"
   js:
     dependency: transitive
     description:
@@ -288,6 +272,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  omni_jitsi_meet:
+    dependency: "direct main"
+    description:
+      name: omni_jitsi_meet
+      sha256: "7305286d781b33b6694c9b696dd26b0ee27092816eae7f22577a0ec79d9d1af0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.13"
+  omni_jitsi_meet_platform_interface:
+    dependency: transitive
+    description:
+      name: omni_jitsi_meet_platform_interface
+      sha256: "4970e38893238524e72203326b464477d2dfc21504135c62ea24bf48234b1b0e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.13"
+  omni_jitsi_meet_web_plugin:
+    dependency: transitive
+    description:
+      name: omni_jitsi_meet_web_plugin
+      sha256: d54a72f67bae374fe21c95246e763f48b41442ad9e9f37c3bc68374abadbb1af
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.13"
   path:
     dependency: transitive
     description:
